@@ -22,3 +22,18 @@ Feel free to use any movies you like.
 		* List of main Actors, each linking to the actor’s IMDB page
 		* Link to go back to the `index.html` page
 		* 	Style at will with CSS and add any other components you feel may add to the users experience.
+
+## Examples
+> For inspiration only. Feel free to experiment with your design.
+
+### Example 1
+#### Index
+![Example 1 Index](Example1-1.jpg)
+#### Detail pages
+![Example 1 Detail](Example1-2.jpg)
+
+### Example 2
+#### Index
+![Example 2 Index](Example2-1.jpg)
+#### Detail pages
+![Example 2 Detail](Example2-2.jpg)
