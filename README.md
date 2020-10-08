@@ -1,1 +1,1 @@
-# FSC---Oct-2020---HTML
+# Full Stack Course - October 2020 - HTML
