@@ -1,4 +1,4 @@
-# My Favorite Movies
+# My Favorite Movies - Exercise Briefing
 ## Goal
 Create a website that showcases your favorite movies.
 Feel free to use any movies you like.
