@@ -1,4 +1,4 @@
-# 🎞 My Favorite Movies 🎞 - Exercise Briefing
+# 🎞 My Favorite Movies 🎞
 ## Goal 🥅
 Create a website that showcases your favorite movies.
 Feel free to use any movies you like.
