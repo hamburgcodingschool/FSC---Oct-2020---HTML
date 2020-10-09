@@ -1,10 +1,10 @@
-# My Favorite Movies - Exercise Briefing
-## Goal
+# 🎞 My Favorite Movies 🎞 - Exercise Briefing
+## Goal 🥅
 Create a website that showcases your favorite movies.
 Feel free to use any movies you like.
 
 
-## Specifications
+## Specifications 🤓
 * The website should contain an homepage `index.html` 
 	* It should contain a Title `h1`
 	* It should contain some thumbnail images that represent each of the movies you want to showcase.
@@ -23,7 +23,7 @@ Feel free to use any movies you like.
 		* Link to go back to the `index.html` page
 		* Style at will with CSS and add feel free to add any other components you feel may add to the users experience.
 
-## Examples
+## Examples 🍿
 > For inspiration only. Feel free to experiment with your design.
 
 ### Example 1
