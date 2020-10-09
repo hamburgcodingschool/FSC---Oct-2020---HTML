@@ -8,7 +8,7 @@
 
 ### 📄 Docs
 
-- [Outline](https://github.com/hamburgcodingschool/FSC-Oct-2020-HTML/blob/main/docs/Handout%20-%20HTML%20%26%20CSS.pdf)
+- [Outline](https://github.com/hamburgcodingschool/FSC-Oct-2020-HTML/blob/main/docs/Outline%20-%20HTML%20%26%20CSS.pdf)
 
 - [Handout](https://github.com/hamburgcodingschool/FSC-Oct-2020-HTML/blob/main/docs/Handout%20-%20HTML%20%26%20CSS.pdf)
 
