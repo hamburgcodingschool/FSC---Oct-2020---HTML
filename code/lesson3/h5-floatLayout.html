@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            
+            #mainWrapper {
+                width: 900px;
+                margin: 100px auto 0;
+            }
+            #topDiv {
+                width: 900px;
+                height: 100px;
+                background-color: red;
+            }
+            #leftDiv {
+                width: 200px;
+                height: 600px;
+                background-color: green;
+                float: left;
+            }
+            #mainDiv {
+                width: 700px;
+                height: 600px;
+                background-color: cyan;
+                float: left;
+            }
+            #bottomDiv {
+                width: 900px;
+                height: 100px;
+                background-color: pink;
+            }
+            .clearFix {
+                clear: both;
+            }
+
+            #temp {
+                background-color: darkgrey;
+                margin: 0 auto;
+                width: 50%;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="temp">
+            text
+        </div>
+
+
+        <div id="mainWrapper">
+            <div id="topDiv">
+                900px X 100px
+            </div>
+            <div id="leftDiv">
+                200px X 600px
+            </div>
+            <div id="mainDiv">
+                700px X 600px
+            </div>
+            <div class="clearFix"></div>
+            <div id="bottomDiv">
+                <p>900px X 100px</p>
+            </div>
+         </div>
+    </body>
+</html>

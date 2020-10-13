@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                font-family: "Courier New", Courier, monospace;
+            }
+
+            #mainWrapper {
+                width: 900px;
+                margin: 100px auto 0;
+            }
+            #topDiv {
+                width: 900px;
+                height: 100px;
+                background-color: rgba(255, 0, 0, 0.5);
+            }
+            #leftDiv {
+                width: 200px;
+                height: 600px;
+                background-color: rgba(0, 255, 0, 0.5);
+                float: left;
+            }
+            #mainDiv {
+                padding: 20px 40px 20px 20px;
+                width: 640px;
+                height: 560px;
+                background-color: rgba(0, 0, 255, 0.2);
+                float: left;
+            }
+            #bottomDiv {
+                width: 900px;
+                height: 100px;
+                background-color: rgba(255, 0, 0, 0.5);
+            }
+            .clearFix {
+                clear: both;
+            }
+
+            .newsImage {
+                float: left;
+                padding: 0 20px 20px 0;
+            }
+
+            p {
+                margin: 0;
+                padding-bottom: 1em;
+            }
+            h1 {
+                margin: 0;
+                padding: 0;
+                line-height: 100px;
+                text-align: center;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            a {
+                font-weight: bold;
+                color: darkgrey;
+                text-decoration: none;
+                font-size: 26px;
+                line-height: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="mainWrapper">
+            <div id="topDiv"><h1>What an Awesome Header! 😎</h1></div>
+            <div id="leftDiv">
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                    <li><a href="#">Link 6</a></li>
+                </ul>
+            </div>
+            <div id="mainDiv">
+                <img
+                    class="newsImage"
+                    src="https://placekitten.com/g/200/300"
+                />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    cursus tortor neque, vitae viverra eros rhoncus eget.
+                    Pellentesque fringilla ipsum in sem cursus semper. Aenean eu
+                    aliquet nisi. Suspendisse nec odio egestas, vulputate dolor
+                    in, elementum lorem. Quisque vulputate auctor volutpat. In
+                    sit amet sapien sollicitudin, mattis arcu eget, sodales
+                    lacus. Duis in mauris nibh. Sed a dignissim enim, vel
+                    feugiat ipsum. Vivamus in rhoncus mauris, ut aliquet leo.
+                    Maecenas vel condimentum urna, nec suscipit neque. Quisque
+                    cursus nulla ut magna pharetra semper. Nam consectetur
+                    cursus metus, nec vehicula tortor lobortis et. Curabitur
+                    lobortis auctor justo eget tristique. Aenean porta arcu at
+                    nisi porta scelerisque. Mauris nec suscipit arcu. Nulla a
+                    dolor mi. Nam placerat sollicitudin urna nec fringilla.
+                </p>
+                <p>
+                    Aliquam mattis, sem hendrerit elementum finibus, massa odio
+                    venenatis massa, non dignissim tortor turpis sed nisi.
+                    Nullam aliquet urna vitae consectetur fringilla. Nulla non
+                    tortor nunc. Nulla a dolor mi. Nam placerat sollicitudin
+                    urna nec fringilla. Proin porta faucibus magna, quis
+                    ultricies mauris auctor vel. In nec nunc suscipit,
+                    condimentum velit in, consectetur tortor. Aenean fermentum
+                    fermentum sapien. Donec eu lacus eu tellus pretium
+                    imperdiet.
+                </p>
+            </div>
+            <div class="clearFix"></div>
+            <div id="bottomDiv">
+                <h1>And such a Great Footer! 🤩</h1>
+            </div>
+        </div>
+    </body>
+</html>
