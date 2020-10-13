@@ -4,7 +4,7 @@
 ### ✏️ Homework
 
 - [Homework 1 - Movies 🍿](https://github.com/hamburgcodingschool/FSC-Oct-2020-HTML/tree/main/homework/movies)
-
+- [Homework 2 - Float Layout 🙀](https://github.com/hamburgcodingschool/FSC-Oct-2020-HTML/tree/main/homework/homework-2)
 
 ### 📄 Docs
 
