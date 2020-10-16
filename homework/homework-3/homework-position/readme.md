@@ -8,4 +8,4 @@ Replicate to the best of your ability the linked image
 ![Layout](homework-position.png)
 
 ### Video
-[![Watch the video](homework-position.mov)
+[Watch the video](homework-position.mov)
