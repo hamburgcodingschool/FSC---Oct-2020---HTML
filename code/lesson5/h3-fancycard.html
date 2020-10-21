@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1 {
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            border: solid 10px black;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #div1:hover #inner-div1 {
+            position: absolute;
+            top: 0px;
+            /* border: solid 10px red; */
+        }
+
+        #inner-div1 {
+            font-size: 30px;
+            padding: 20px;
+            width: 160px;
+            height: 160px;
+            top: -200px;
+            background-color: rgba(0, 0, 0, 0.4);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #inner-div1 p {
+            margin: 0 0 10px 0;
+            
+            color: burlywood;
+        }
+
+        #inner-div1 a {
+         
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <img src="https://placebear.com/200/200">
+        <div id="inner-div1">
+            <p>Bears are Awesome!</p>
+            <a href="#">Bear Links!</a>
+        </div>
+    </div>
+</body>
+</html>
