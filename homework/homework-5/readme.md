@@ -8,7 +8,7 @@ Let's create 2 pages for this Website (Home and Contacts)
 
 
 ## Specifications 🤓
-### Image
+
 * [Homepage](Kelly-index.pdf)
 * [Contacts](Kelly-contacts.pdf)
 * [Watch the video](Kelly-movie.mov)
