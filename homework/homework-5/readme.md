@@ -1,4 +1,4 @@
-# My Cool Website
+# Website
 ## Goal 🥅
 Let's create 2 pages for this Website (Home and Contacts)
 
