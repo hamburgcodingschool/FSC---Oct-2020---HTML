@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #header {
+            background-color: black;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        #header .logo {
+            float: left;
+            padding: 10px 30px;
+            height: 30px;
+        }
+        
+        #header nav {
+            float: right;
+            display: none;
+        }
+
+        #header nav a {
+            color: white;
+            text-decoration: none;
+            line-height: 50px;
+            /* 
+                line-height is same as container height
+                so the text is centered in container
+                only works for 1 line text
+             */
+            font-size: 20px;
+            margin: 0 30px;
+        }
+
+        #header .burger {
+            display: block;
+            float: right;
+            padding: 10px 30px;
+        }
+
+        #header .burger img {
+            height: 30px;
+        }
+
+        #div1 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        /* @media (min-width: 768px) and (max-width: 1109px) { */
+        @media (min-width: 768px) { /* tablet breakpoint */
+            #div1 {
+                background-color: green;
+            } 
+        }
+
+        @media (min-width: 1100px) { /* desktop breakpoint */
+
+            #header nav {
+                display: block;
+            }
+
+            #header .burger {
+                display: none;
+            }
+
+            #div1 {
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img class="logo" src="https://hamburgcodingschool.com/assets/images/hcs_light_32x.png">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contacts</a>
+            <a href="#">Gallery</a>
+            <a href="#">About us</a>
+        </nav>
+        <a class="burger" href="#"><img src="burger-menu.png"></a>
+    </div>
+    <div id="div1"></div>
+</body>
+</html>
