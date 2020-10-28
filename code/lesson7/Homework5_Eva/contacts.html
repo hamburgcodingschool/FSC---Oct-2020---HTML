@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+      #mainWrapper {
+        width: 1280px;
+        height: auto;
+        margin: 100px auto 0 auto;
+        position: relative;
+      }
+
+      #sidebarWrapper {
+        height: auto;
+        text-align: right;
+        position: fixed;
+        width: 400px;
+      }
+
+      #logo {
+        font-size: 40px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 75px;
+        display: inline-block;
+      }
+
+      #navigation {
+        list-style-type: none;
+      }
+
+      #navigation a {
+        font-size: 25px;
+        line-height: 1.5;
+        font-weight: 300;
+        text-decoration: none;
+        color: rgb(172, 172, 172);
+      }
+
+      #navigation a:hover {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+      }
+
+      .imagesRow {
+        position: absolute;
+        left: 500px;
+        top: 520px;
+      }
+
+      #imageContactRow {
+        top: 10px;
+      }
+
+      #imageContactRow img {
+        width: 765px;
+      }
+
+      #contactWrapper {
+        width: 705px;
+        height: 690px;
+        background-color: rgb(237, 237, 237);
+        padding: 30px;
+      }
+      p,
+      #contactWrapper li {
+        font-weight: 200;
+        line-height: 1.8;
+      }
+
+      #contactWrapper li {
+        font-style: italic;
+      }
+
+      #contactWrapper b {
+        font-weight: 400;
+      }
+
+      #contactContainer {
+        width: 600px;
+        margin: 0 auto;
+      }
+      h2 {
+        font-weight: 400;
+      }
+
+      h3 {
+        font-weight: 400;
+      }
+
+      #contactForm {
+        margin-top: 50px;
+      }
+
+      input, textarea {
+        width: 100%;
+        height: 30px;
+        border: 1px solid rgb(172, 172, 172);
+        margin-bottom: 20px;
+        font-weight: 200;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+      textarea{
+        height: 100px; 
+
+      }
+
+      input:focus, textarea:focus{
+        outline-color: rgb(222, 204, 211); 
+      }
+
+      button {
+        width: 170px;
+        height: 35px;
+        border-radius: 0px;
+        color: white;
+        background-color: black;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        border-color: black; 
+      }
+
+      #footer {
+        top: 1350px;
+        border-top: 1px solid rgb(172, 172, 172);
+        width: 765px;
+        margin-bottom: 50px; 
+      }
+
+      #aboutMe,
+      #contactMe {
+        width: 300px;
+        float: left;
+        margin-top: 40px; 
+      }
+
+      #aboutMe p,
+      #contactMe p {
+        width: 320px;
+      }
+
+      #contactMe {
+        margin-left: 120px;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div id="mainWrapper">
+      <div id="sidebarWrapper">
+        <div id="logo">Kelly</div>
+        <nav>
+          <ul id="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Branding</a></li>
+            <li><a href="index.html">Design</a></li>
+            <li><a href="index.html">Identity</a></li>
+            <li><a href="index.html">Furniture</a></li>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="contentWrapper">
+        <div class="imagesRow" id="imageContactRow">
+          <img src="images/contact.jpg" />
+        </div>
+        <div class="imagesRow" id="contactWrapper">
+          <div id="contactContainer">
+            <h2>Contact Me</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren.
+            </p>
+            <ul>
+              <li><b>Phone:</b> +1234 5678</li>
+              <li><b>Email:</b> someemail@gmail.com</li>
+              <li><b>Location:</b> Somestreet 12, 22587 Hamburg</li>
+            </ul>
+
+            <div id="contactForm">
+              <form>
+                <label> <input type="text" placeholder="Your name*" /></label>
+              </form>
+              <form>
+                <label> <input type="text" placeholder="Your Email*" /></label>
+              </form>
+              <form>
+                <label> <input type="text" placeholder="Subject" /></label>
+              </form>
+              <form>
+                <label>
+                  <textarea class="message" type="text" placeholder="Message*"></textarea>
+                  </label>
+              </form>
+              <button>Post Comment</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="imagesRow" id="footer">
+          <div id="aboutMe">
+            <h3>About me</h3>
+            <p>
+              I am a Web Developer based in Hamburg, specializing in User
+              Interface Design and Development.
+            </p>
+          </div>
+          <div id="contactMe">
+            <h3>Contact me</h3>
+            <p>
+              Phone: +1234 5678 <br />
+              Email: someemail@gmail.com <br />
+              Location: Somestreet 12, 22587 Hamburg
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
