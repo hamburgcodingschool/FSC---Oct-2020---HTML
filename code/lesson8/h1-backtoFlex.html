@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #parentContainer {
+            width: 90%;
+            background-color: pink;
+
+            /* margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            margin-bottom: 0; */
+
+            margin: 50px auto 0;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        #parentContainer > div {
+            background-color: red;
+            margin: 10px;
+            flex-basis: 200px;
+            flex-grow: 1;
+
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parentContainer">
+        <div>
+            1
+        </div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+</html>
