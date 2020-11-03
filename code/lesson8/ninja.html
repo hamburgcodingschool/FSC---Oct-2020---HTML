@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Card</title>
+<style>
+    #wrapper {
+        width:400px;
+        height:300px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin:40px auto 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-shadow: silver 5px 5px 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    #wrapper div {
+        text-align: center;
+        display:block;
+    }
+    img {
+        border-radius: 1000px;
+        margin-top:20px;
+    }
+    h3{
+        color:rgb(122, 128, 137);
+    }
+    p{
+        color:silver;
+    }
+    p:first-of-type{
+        color:rgb(190, 137, 190);
+    }
+    @media (min-width:700px){
+        #wrapper{
+            width:500px;
+            height:200px;
+        /*flex-direction: row;
+        flex-wrap:wrap;*/
+        }
+        img {
+            border-radius: 1000px;
+            margin-top:50px;
+            width:80px;
+            position:relative;
+            left:-150px;
+        }
+        p, h3{
+           position:relative;
+           top:-90px;
+           text-align: left;
+           margin-left:180px;
+           padding:-10px;
+           font-size: 12px;
+        }
+    }
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <div> <img src="womanpic.jpg" width="100px"> 
+        <h3>Erin Lindford</h3>
+        <p>Product Engineer</p>
+        <p>erinlindford@example.com</p>
+        <p>(555) 536 373 78</p>
+    </div>
+    <div id="wrapper">
+        <div> <img src="womanpic.jpg" width="100px"> 
+        <h3>Erin Lindford</h3>
+        <p>Product Engineer</p>
+        <p>erinlindford@example.com</p>
+        <p>(555) 536 373 78</p>
+    </div>
+    <div id="wrapper">
+        <div> <img src="womanpic.jpg" width="100px"> 
+        <h3>Erin Lindford</h3>
+        <p>Product Engineer</p>
+        <p>erinlindford@example.com</p>
+        <p>(555) 536 373 78</p>
+    </div>
+    <div id="wrapper">
+        <div> <img src="womanpic.jpg" width="100px"> 
+        <h3>Erin Lindford</h3>
+        <p>Product Engineer</p>
+        <p>erinlindford@example.com</p>
+        <p>(555) 536 373 78</p>
+    </div>
+</body>
+</html>
