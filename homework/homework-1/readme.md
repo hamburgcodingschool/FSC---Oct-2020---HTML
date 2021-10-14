@@ -26,7 +26,7 @@ Feel free to use any movies you like.
 		* Optional: Feel free to add any other components you like to improve the website
 
 ## Examples 🍿
-> For inspiration only. Feel free to experiment with your design.
+> For inspiration only. You should experiment with your own design.
 
 ### Example 1
 #### Index
