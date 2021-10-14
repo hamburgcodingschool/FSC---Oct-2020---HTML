@@ -9,7 +9,8 @@ Feel free to use any movies you like.
 	* It should contain a Title `h1`
 	* It should contain some thumbnail images that represent each of the movies you want to showcase.
 	* That thumbnail should link to a html page, where you show the details of the specific movie.
-	* Style at will with CSS and add feel free to add any other components you feel may add to the users experience.
+	* Style at will with CSS
+	* Optional: Feel free to add any other components you like to improve the website
 * Movie Detail pages
 	* Create an html page for each of your movies.
 	* They should be similar in style but different in specific content.
@@ -21,7 +22,8 @@ Feel free to use any movies you like.
 		* IMDB.com link for the movie
 		* List of main Actors, each linking to the actor’s IMDB page
 		* Link to go back to the `index.html` page
-		* Style at will with CSS and add feel free to add any other components you feel may add to the users experience.
+		* Style at will with CSS
+		* Optional: Feel free to add any other components you like to improve the website
 
 ## Examples 🍿
 > For inspiration only. Feel free to experiment with your design.
